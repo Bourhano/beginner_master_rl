@@ -1,4 +1,4 @@
-name: bmrl
+name: reinforcement
 channels:
   - defaults
 dependencies:

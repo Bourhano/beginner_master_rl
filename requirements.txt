@@ -1,0 +1,10 @@
+pyopengl
+torch==1.13
+matplotlib
+pandas
+numpy
+tqdm
+seaborn
+scikit-learn
+gym==0.23.1
+pygame==2.1.2
