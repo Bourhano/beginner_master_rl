@@ -140,4 +140,11 @@ Off-Policy algo
 Policy gradient methods: 
 Use a function estimator to predict the probabilities of executing the next action. The neural network is the POLICY.
 
+It is a combination of policy gradient methods and monte carlo methods.
+
 Value-based methods cannot represent stochastic policies unlinke policy gradient methods.
+
+The entropy method helps to keep the decisions not deterministic, so the system does not get stuck on one action without progrssng.
+
+## A2C: Advantage Actor-Critic
+Compare the value estimate to the reward estimate, then take the best decision (most adventageous).
